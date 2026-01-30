@@ -653,8 +653,8 @@ ul {
 
 .section-title {
     font-family: var(--font-heading);
-    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
-    /* Adjusted for 2-line break on PC */
+    font-size: clamp(1.6rem, 3.2vw, 2.5rem);
+    /* Reduced further for 2-line safety */
     letter-spacing: 0.05em;
     font-weight: 600;
     line-height: 1.4;
