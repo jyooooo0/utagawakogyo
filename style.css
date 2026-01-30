@@ -521,19 +521,22 @@ ul {
 
 .hero-catchphrase {
     font-family: var(--font-heading);
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    /* Slightly larger */
+    font-size: clamp(3rem, 7vw, 5.5rem);
+    /* Significantly larger */
     font-weight: 700;
-    /* Bolder */
-    margin-bottom: 30px;
-    letter-spacing: 0.1em;
-    line-height: 1.6;
+    margin-bottom: 40px;
+    letter-spacing: 0.15em;
+    /* More spacing for style */
+    line-height: 1.4;
     color: #fff;
-    /* Ensure white */
-    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    /* Strong shadow for readability */
+    text-shadow:
+        0 4px 8px rgba(0, 0, 0, 0.4),
+        0 0 20px rgba(0, 0, 0, 0.2);
+    /* Soft glow + strong shadow */
     word-break: keep-all;
     overflow-wrap: anywhere;
+    transform: translateY(0);
+    text-align: center;
 }
 
 .hero-title {
